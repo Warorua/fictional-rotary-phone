@@ -6,6 +6,7 @@ class UserInputController extends Controller
         if (isset($_GET['data'])) {
             $serializedData = $_GET['data'];
             $result = unserialize($serializedData);
+            $result->getAnything();
             echo "Unserialized Data:<br>";
             echo "<pre>";
             print_r($result);
