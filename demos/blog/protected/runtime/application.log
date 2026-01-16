@@ -1,0 +1,10 @@
+2026/01/16 18:54:13 [error] [php] unserialize(): Error at offset 0 of 4 bytes (C:\xampp_5.5\htdocs\yii\demos\blog\protected\controllers\UserInputController.php:8)
+Stack trace:
+#0 C:\xampp_5.5\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 C:\xampp_5.5\htdocs\yii\framework\web\CController.php(286): UserInputController->runAction()
+#2 C:\xampp_5.5\htdocs\yii\framework\web\CController.php(265): UserInputController->runActionWithFilters()
+#3 C:\xampp_5.5\htdocs\yii\framework\web\CWebApplication.php(282): UserInputController->run()
+#4 C:\xampp_5.5\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 C:\xampp_5.5\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#6 C:\xampp_5.5\htdocs\yii\demos\blog\index.php(11): CWebApplication->run()
+REQUEST_URI=/yii/demos/blog/index.php/UserInput?data=abcd
